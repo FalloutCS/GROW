@@ -20,11 +20,11 @@
 	/>
 </svelte:head>
 
-<main class="bg-primary text-secondary">
+<div class="bg-primary text-secondary">
 	<Hero />
 	<Features />
 	<HowItWorks />
 	<WaitlistForm />
 
 	<Footer />
-</main>
+</div>
