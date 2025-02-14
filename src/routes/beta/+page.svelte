@@ -23,9 +23,6 @@
 		}
 	]);
 
-    function UploadDemo(demo) {
-        
-    }
 </script>
 
 <div class="p-6">

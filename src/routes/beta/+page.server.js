@@ -17,8 +17,14 @@ export async function load() {
 
 /** @satisfies {import('./$types').Actions} */
 export const actions = {
-	default: async (event) => {
+	default: async ({request}) => {
 		// TODO log the user in
+        try {
+            const data = await request.formData();
+            console.log(data);
+        } catch (error) {
+            console.log("error uploading demo");
+        }
         console.log("someone wants to upload a demo")
 	}
 };
